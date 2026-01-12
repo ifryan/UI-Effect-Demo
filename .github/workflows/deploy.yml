@@ -13,7 +13,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps: deployment.outputs.page_url }}
+      url: https://ifryan.github.io/ui-effect-demo
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
