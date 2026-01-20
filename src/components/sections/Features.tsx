@@ -27,9 +27,9 @@ const features = [
 export default function Features() {
   return (
     <CornersPlus>
-      <div className="flex sticky">
-        <div className="dashed-border-4-4-r flex-598 sticky ">
-          <p className="flex flex-col gap-y-4 px-10 py-30 ">
+      <div className="flex">
+        <div className="dashed-border-4-4-r flex-598  ">
+          <p className="flex flex-col gap-y-4 px-10 py-30 sticky top-0">
             <p className="cross-card-content">
               <DecryptedText text="From Spec to Shipped in Minutes" />
             </p>
